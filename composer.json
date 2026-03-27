@@ -1,0 +1,21 @@
+{
+  "name": "protocollive/apicatolica",
+  "description": "API das leituras diárias da Igreja Católica",
+  "type": "library",
+  "require": {
+    "php": ">=8.3",
+    "protocollive/phptools": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Protocol Corporation",
+      "email": "protocollive@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ProtocolLive\\ApiCatolica\\": "tools"
+    }
+  }
+}

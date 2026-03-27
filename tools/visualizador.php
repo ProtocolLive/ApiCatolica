@@ -1,15 +1,13 @@
 <?php
 //Protocol Corporation Ltda.
 //https://github.com/ProtocolLive/ApiCatolica
-//2026.03.26.00
+//2026.03.27.00
 
 //Ferramenta para visualizar de forma fácil as leituras de cada dia
 //Para pular para uma determinada data, use o parâmetro dia na url, no formato internacional, com leading 0
 //Exemplo: visualizador.php?dia=2021-09-07
 
 define('Pasta', dirname(__DIR__));
-require(Pasta . '/tools/anoliturgico.php');
-require(Pasta . '/tools/funcoes.php');
 
 $_GET['dia'] ??= date('Y-m-d');
 $Ts = strtotime($_GET['dia']);

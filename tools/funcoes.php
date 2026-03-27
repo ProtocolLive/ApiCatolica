@@ -1,9 +1,7 @@
 <?php
 //Protocol Corporation Ltda.
 //https://github.com/ProtocolLive/ApiCatolica
-//2026.03.26.00
-
-require_once(__DIR__ . '/Tempo.php');
+//2026.03.27.00
 
 /**
  * @param int $Ano Timestamp
